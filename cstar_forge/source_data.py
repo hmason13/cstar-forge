@@ -348,7 +348,7 @@ class SourceData:
                 copernicusmarine.subset(
                     dataset_id=glorys_dataset_id,
                     variables=["thetao", "so", "uo", "vo", "zos"],
-#                    coordinates_selection_method="outside",
+                    coordinates_selection_method="outside",
                     start_datetime=current_date,
                     end_datetime=current_date,
                     output_filename=path.name,
