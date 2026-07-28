@@ -455,7 +455,7 @@ def _prepare_unified_bgc_dataset(self: SourceData) -> Path:
 # ---------------------------
 
 
-@register_dataset("SRTM15")
+@register_dataset(f"SRTM15_{SRTM15_VERSION}")
 def _prepare_srtm15(self: SourceData) -> Path:
     """
     Ensure the SRTM15 bathymetry dataset exists locally.
